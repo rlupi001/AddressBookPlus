@@ -1,10 +1,11 @@
-//
-//  AppDelegate.h
-//  AddressPlus_Ripley_Lupine
-//
-//  Created by ripley vit lupine on 4/5/14.
-//  Copyright (c) 2014 ripley vit lupine. All rights reserved.
-//
+/*
+ Ripley Lupine
+ 3218863
+ COP465501 TR 5:00
+ Steve Luis ECS 282
+ #6 Assignment
+ DUE Weds Apr9 2014
+ */
 
 #import <UIKit/UIKit.h>
 

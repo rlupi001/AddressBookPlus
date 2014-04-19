@@ -16,6 +16,13 @@
 		4D4D010D18F0826400ADAF76 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4D010C18F0826400ADAF76 /* Default.png */; };
 		4D4D010F18F0826400ADAF76 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4D010E18F0826400ADAF76 /* Default@2x.png */; };
 		4D4D011118F0826400ADAF76 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4D011018F0826400ADAF76 /* Default-568h@2x.png */; };
+		4D4D012018F082F000ADAF76 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D011F18F082F000ADAF76 /* ItemViewController.m */; };
+		4D4D012118F08E1200ADAF76 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D011818F0827B00ADAF76 /* AddressBook.m */; };
+		4D4D012218F08E1D00ADAF76 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D011A18F0827B00ADAF76 /* AddressCard.m */; };
+		4D4D012618F0988400ADAF76 /* Names.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D4D012518F0988400ADAF76 /* Names.plist */; };
+		4D4D012A18F0A39200ADAF76 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4D012818F0A39200ADAF76 /* DetailViewController.m */; };
+		4D4D012B18F0A39200ADAF76 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4D012918F0A39200ADAF76 /* DetailViewController.xib */; };
+		4DD124FD18F9CF7C000AB027 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD124FC18F9CF7C000AB027 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,17 @@
 		4D4D010C18F0826400ADAF76 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4D4D010E18F0826400ADAF76 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4D4D011018F0826400ADAF76 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D4D011718F0827B00ADAF76 /* AddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		4D4D011818F0827B00ADAF76 /* AddressBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBook.m; sourceTree = "<group>"; };
+		4D4D011918F0827B00ADAF76 /* AddressCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressCard.h; sourceTree = "<group>"; };
+		4D4D011A18F0827B00ADAF76 /* AddressCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = "<group>"; };
+		4D4D011E18F082EF00ADAF76 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemViewController.h; path = ../ItemViewController.h; sourceTree = "<group>"; };
+		4D4D011F18F082F000ADAF76 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemViewController.m; path = ../ItemViewController.m; sourceTree = "<group>"; };
+		4D4D012518F0988400ADAF76 /* Names.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Names.plist; sourceTree = "<group>"; };
+		4D4D012718F0A39200ADAF76 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4D4D012818F0A39200ADAF76 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4D4D012918F0A39200ADAF76 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		4DD124FC18F9CF7C000AB027 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD124FD18F9CF7C000AB027 /* CoreData.framework in Frameworks */,
 				4D4D00FB18F0826300ADAF76 /* UIKit.framework in Frameworks */,
 				4D4D00FD18F0826300ADAF76 /* Foundation.framework in Frameworks */,
 				4D4D00FF18F0826300ADAF76 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +70,7 @@
 		4D4D00EE18F0826300ADAF76 = {
 			isa = PBXGroup;
 			children = (
+				4DD124FC18F9CF7C000AB027 /* CoreData.framework */,
 				4D4D010018F0826300ADAF76 /* AddressPlus_Ripley_Lupine */,
 				4D4D00F918F0826300ADAF76 /* Frameworks */,
 				4D4D00F818F0826300ADAF76 /* Products */,
@@ -80,6 +100,16 @@
 			children = (
 				4D4D010918F0826400ADAF76 /* AppDelegate.h */,
 				4D4D010A18F0826400ADAF76 /* AppDelegate.m */,
+				4D4D011E18F082EF00ADAF76 /* ItemViewController.h */,
+				4D4D011F18F082F000ADAF76 /* ItemViewController.m */,
+				4D4D011718F0827B00ADAF76 /* AddressBook.h */,
+				4D4D011818F0827B00ADAF76 /* AddressBook.m */,
+				4D4D011918F0827B00ADAF76 /* AddressCard.h */,
+				4D4D011A18F0827B00ADAF76 /* AddressCard.m */,
+				4D4D012518F0988400ADAF76 /* Names.plist */,
+				4D4D012718F0A39200ADAF76 /* DetailViewController.h */,
+				4D4D012818F0A39200ADAF76 /* DetailViewController.m */,
+				4D4D012918F0A39200ADAF76 /* DetailViewController.xib */,
 				4D4D010118F0826300ADAF76 /* Supporting Files */,
 			);
 			path = AddressPlus_Ripley_Lupine;
@@ -154,6 +184,8 @@
 				4D4D010D18F0826400ADAF76 /* Default.png in Resources */,
 				4D4D010F18F0826400ADAF76 /* Default@2x.png in Resources */,
 				4D4D011118F0826400ADAF76 /* Default-568h@2x.png in Resources */,
+				4D4D012618F0988400ADAF76 /* Names.plist in Resources */,
+				4D4D012B18F0A39200ADAF76 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,8 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4D012218F08E1D00ADAF76 /* AddressCard.m in Sources */,
+				4D4D012118F08E1200ADAF76 /* AddressBook.m in Sources */,
 				4D4D010718F0826400ADAF76 /* main.m in Sources */,
 				4D4D010B18F0826400ADAF76 /* AppDelegate.m in Sources */,
+				4D4D012018F082F000ADAF76 /* ItemViewController.m in Sources */,
+				4D4D012A18F0A39200ADAF76 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +316,7 @@
 				4D4D011618F0826400ADAF76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

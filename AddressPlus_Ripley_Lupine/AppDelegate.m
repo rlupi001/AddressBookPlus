@@ -1,12 +1,14 @@
-//
-//  AppDelegate.m
-//  AddressPlus_Ripley_Lupine
-//
-//  Created by ripley vit lupine on 4/5/14.
-//  Copyright (c) 2014 ripley vit lupine. All rights reserved.
-//
+/*
+ Ripley Lupine
+ 3218863
+ COP465501 TR 5:00
+ Steve Luis ECS 282
+ #6 Assignment
+ DUE Weds Apr9 2014
+ */
 
 #import "AppDelegate.h"
+#import "ItemViewController.h"
 
 @implementation AppDelegate
 
@@ -14,6 +16,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    ItemViewController *itemViewController = [[ItemViewController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:itemViewController];
+    
+    [[self window] setRootViewController:navController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
